@@ -45,6 +45,7 @@ provider:
   iamRoleStatements:
     - Effect: Allow
       Action:
+        - ses:SendEmail
         - dynamodb:Query
         - dynamodb:Scan
         - dynamodb:GetItem
